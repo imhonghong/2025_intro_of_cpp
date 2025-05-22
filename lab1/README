@@ -1,1 +1,15 @@
+Compile:
+since the name of the lab is called "lab1",
+I named the cpp file as "lab1.cpp"
+using
+```
+g++ -o lab1 lab1.cpp
+```
+will generate a execution file called "lab1.exe".
 
+Execution:
+In terminal, using
+```
+./lab1.exe
+```
+can execute the .exe file.
