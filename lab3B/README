@@ -1,1 +1,21 @@
+for size = 1000:
+    sort(): 0 seconds
+    v1 and v2 are different.
+    insertion_sort(): 0.015 seconds
+    v1 and v2 are the same.
 
+for size = 10_000:
+    sort(): 0 seconds
+    v1 and v2 are different.
+    insertion_sort(): 0.562 seconds
+    v1 and v2 are the same.
+
+for size = 100_000:
+    sort(): 0.031 seconds
+    v1 and v2 are different.
+    insertion_sort(): 58 seconds
+    v1 and v2 are the same.
+
+
+for size = 1_000_000:
+    
