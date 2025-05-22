@@ -1,1 +1,11 @@
+There're 4 files related to the function, they are
+    |___ lab2.cpp
+    |___ BMI.cpp
+    |___ BMI.h
+    |___ Makefile
+
+I've wrote a makefile to automatically compile the files, we can simply type
+`make` at this directory, then the bash will execute the makefile script, generating lab2.exe file.
+We can execute the file by typing
+`./lab2.exe`
 
