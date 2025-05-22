@@ -1,1 +1,13 @@
+There're some files related to the function:
+    |____ HugeInt.cpp
+    |____ HugeInt.o
+    |____ lab5.cpp
+    |____ Makefile
+
+We can simply type `make` in this directory, and it'll compile and generate `lab5.exe`
+
+Type `./lab5` to execute the `lab5.exe`
+we can input a huge interger like 123456789000987654321,
+and it'll compute the result as the question required.
+
 
