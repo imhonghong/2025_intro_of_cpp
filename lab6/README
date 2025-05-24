@@ -1,0 +1,21 @@
+1. True
+➤ 建構子不會被繼承，但衍生類別可以呼叫基底類別的建構子（透過初始化列表）。
+
+2. False
+➤ is-a 關係（例如 Dog is-a Animal）是透過繼承實作，而**composition（組合）**代表的是 has-a 關係（例如 Car has-a Engine）。
+
+3. False
+➤ Student 和 Faculty、Course 應該是 has-a 或 associated-with 關係，而不是 is-a。Student 不是一個 Course 或 Faculty。
+
+4. True
+➤ private 成員即使在 derived class 中也無法直接存取。只能透過 public/protected 成員函數間接存取。
+
+5. True
+➤ protected 成員可以被 base class 本身、其 derived classes，以及 friend 所存取。
+
+2. 
+                      Student
+                    /         \
+       UndergraduateStudent  GraduateStudent
+        /    |     |     \         /        \
+ Freshman Sophomore Junior Senior  MasterStudent DoctoralStudent
