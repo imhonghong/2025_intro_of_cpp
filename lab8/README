@@ -1,0 +1,6 @@
+1. No, line6 won't be executed. It's because we do not throw in a try-catch block.
+This program terminate at line 5 after throwing an error, so line 6 is ignored.
+
+2. No, because throw 3.0 is a double, not a float. The catch(float) will not catch a double,
+so line 8~10 will not be executed.
+
