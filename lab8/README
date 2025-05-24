@@ -4,3 +4,34 @@ This program terminate at line 5 after throwing an error, so line 6 is ignored.
 2. No, because throw 3.0 is a double, not a float. The catch(float) will not catch a double,
 so line 8~10 will not be executed.
 
+3. I add:
+
+int main(){
+
+    try{
+    int* p = new int[92233720368547758];
+    delete[] p;
+    } catch (std::bad_alloc& e){
+        std::cout << "Memory allocation failed: " << e.what() << std::endl;
+    }
+    Mino * mino_ptr;
+
+in my tetris5.cpp
+After compiling and running, terminal prints:
+
+$ ./tetris.exe
+Memory allocation failed: std::bad_alloc
+0000
+0111
+0010
+0000
+0010
+0010
+0010
+0010
+0000
+0100
+0100
+0110
+
+the exception handling works.
