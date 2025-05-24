@@ -17,6 +17,7 @@ int main(){
     Mino * mino_ptr;
 
 in my tetris5.cpp
+We can use "make" to compile.
 After compiling and running, terminal prints:
 
 $ ./tetris.exe
