@@ -1,1 +1,4 @@
-
+There're many files, the target is "tetris5.cpp",
+other files are dependencies,
+type "make" then the make file will run the compile script and generate a "tetris.exe".
+We can run it by typing "./tetris".
